@@ -1,5 +1,6 @@
 <template>
     <div v-if = "loaded">
+      test
         <section class="text-3xl flex flex-col">
         <h3 v-if = "!expired">Hello from Counter component! Below is a countdown timer.</h3>
         <h3 v-else>Time has expired</h3>
